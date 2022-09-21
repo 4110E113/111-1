@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main (){
+
+  printf("H\tH\t  A\n");
+  printf("H\tH\t A A\n");
+  printf("HHHHHHHHH\tA   A\n");
+  printf("H\tH      AAAAAAA\n");
+  printf("H\tH      A     A");
+
+    return 0;
+}
