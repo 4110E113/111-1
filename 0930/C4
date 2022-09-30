@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+
+int main(void){
+
+	printf("%lu\n", 26);
+	printf("%lu\n", 032);
+	printf("%lu\n", 0x1A);
+
+    return 0;	
+
+}
