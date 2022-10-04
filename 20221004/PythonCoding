@@ -107,15 +107,16 @@ print("1" not in x)
 # UNDERSTANDE
 
 ```python
-# &  AND	Sets each bit to 1 if both bits are 1
+# &  AND Sets each bit to 1 if both bits are 1
 # |	 OR	Sets each bit to 1 if one of two bits is 1
-# ^	 XOR	Sets each bit to 1 if only one of two bits is 1
-# ~  NOT	Inverts all the bits
+# ^	 XOR Sets each bit to 1 if only one of two bits is 1
+# ~  NOT Inverts all the bits
 # << Zero fill left shift	Shift left by pushing zeros in from the right and let the leftmost bits fall off
 # >> Signed right shift	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off
 
 ```
-
+20221004_09:31
+################################################################################################################################
 ```python
 x = 1.10
 y = 1
@@ -174,7 +175,7 @@ x = 8
 
 print(x > 6 and x < 9)
 ```
-
+################################################################################################################################
 ## 字串str的各種運算 
 # [參考](https://www.w3schools.com/python/python_strings.asp)
 
@@ -189,8 +190,12 @@ print(x[:8])
 ．Modify Strings
 # Python has a set of built-in methods that you can use on strings.
 
+20221004_09:31
+################################################################################################################################
+
 ```python
 
+```
 ```python
 a = '''iashuhuhqbwbdsuhfuia
 auqahfoancaos
@@ -215,7 +220,11 @@ b = "Hello, World!"
 print(b[2:])
 ```
 
+20221004_09:31
+################################################################################################################################ 
+
 ## 列表list的各種運算  [參考](https://www.w3schools.com/python/python_lists.asp)
+
 ```python
 x = ["apple", "banana", "cherry", "apple", "cherry"]
 print(x)
