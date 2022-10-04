@@ -1,3 +1,36 @@
 ## PythonCoding
 - [python tutorial](https://www.w3schools.com/python/)
 - [python tutorial](https://www.tutorialspoint.com/python/index.htm)
+
+#整數的各種運算 Python Operators
+```python
+x = 1.10
+y = 1
+z = -35.59
+
+print(type(x))
+print(type(y))
+print(type(z))
+```
+#字串str的各種運算
+```python
+a = '''iashuhuhqbwbdsuhfuia
+auqahfoancaos
+aiwdishibguefuckauwdsbbuheua.'''
+print(a)
+```python
+#列表list的各種運算
+```python
+x = ["apple", "banana", "cherry", "apple", "cherry"]
+print(x)
+```
+#字典dict的各種運算
+```python
+dict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 2022
+}
+print(dict)
+```
+
