@@ -16,3 +16,193 @@ x
 b = x+50
 b
 
+a = '''iashuhuhqbwbdsuhfuia
+auqahfoancaos
+aiwdishibguefuckauwdsbbuheua.'''
+print(a)
+
+x = 1.10
+y = 1
+z = -35.59
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+x = ["apple", "banana", "cherry", "apple", "cherry"]
+print(x)
+
+dict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 2022
+}
+print(dict)
+
+list = ["apple"]
+print(list[:5])
+
+list = ["apple", "banana", "cherry"]
+print(list[0])
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(type(thisdict))
+
+x = 35e3
+y = 12E4
+
+print(type(x))
+print(type(y))
+
+x = 3+5j
+print(type(x))
+
+x = 1    
+y = 2.8  
+z = 1j   
+#convert from int to float:
+a = float(x)
+
+#convert from float to int:
+b = int(y)
+
+#convert from int to complex:
+c = complex(x)
+
+print(a)
+print(b)
+print(c)
+
+print(type(a))
+print(type(b))
+print(type(c))
+
+myfamily = {
+  "child1" : {
+    "name" : "Emil",
+    "year" : 2004
+  },
+  "child2" : {
+    "name" : "Tobias",
+    "year" : 2007
+  },
+  "child3" : {
+    "name" : "Linus",
+    "year" : 2011
+  }
+}
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = thisdict["model"]
+
+b = "Hello, World!"
+print(b[2:])
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+
+for x in fruits:
+  if "c" in x:
+    newlist.append(x)
+
+print(newlist)
+
+fruits = ["kiwi", "banana", "cherry", "apple", "water"]
+
+newlist = [x for x in fruits if "a" in x]
+
+print(newlist)
+
+thisdict = {
+  "brand": "Ford",
+  "model": "1001101",
+  "year": 2022
+}
+thisdict["color"] = "blue"
+print(thisdict)
+
+myfamily = {
+  "me" : {
+    "name" : "ran",
+    "year" : 2003
+  },
+  "bro" : {
+    "name" : "Tobi",
+    "year" : 2001
+  },
+  "sis" : {
+    "name" : "Emy",
+    "year" : 1998
+  }
+}
+print(myfamily)
+
+x = 6
+y = 2
+
+print(x % y)
+
+x = 1
+y = 2
+
+print(x % y)
+
+x = 4125152
+y = 2
+
+print(x % y)
+
+x = 2
+y = 5
+
+print(x ** y)
+
+x = 2
+y = 10
+
+print(x ** y)
+
+x = 4125252
+y = 2
+
+print(x // y)
+
+x = 4125251
+y = 2
+
+print(x // y)
+
+x = 5
+
+x += 3
+
+print(x)
+
+x = 20
+
+x += 3
+
+print(x)
+
+x = 
+
+x &= 3
+
+print(x)
+
+x = 5
+y = 8
+
+print(x != y)
+
+x = 8
+
+print(x > 6 and x < 9)
