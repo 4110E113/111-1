@@ -4,7 +4,7 @@
 - [python tutorial](https://www.tutorialspoint.com/python/index.htm)
 
 # 整數的各種運算 Python Operators    
-## [參考](https://www.w3schools.com/python/python_numbers.asp) ## [參考](https://zh.m.wikibooks.org/zh-tw/Python/%E8%BF%90%E7%AE%97%E7%AC%A6)
+## [參考](https://www.w3schools.com/python/python_numbers.asp) [參考](https://zh.m.wikibooks.org/zh-tw/Python/%E8%BF%90%E7%AE%97%E7%AC%A6)
 
 # Python Arithmetic Operators
 ## Arithmetic operators are used with numeric values to perform common mathematical operations
@@ -174,8 +174,7 @@ x = 8
 
 print(x > 6 and x < 9)
 ```
-# 字串str的各種運算 
-## [參考](https://www.w3schools.com/python/python_strings.asp)
+# 字串str的各種運算 [參考](https://www.w3schools.com/python/python_strings.asp)
 
 # Slicing
 ## By leaving out the start index, the range will start at the first character
