@@ -4,8 +4,8 @@
 - [python tutorial](https://www.tutorialspoint.com/python/index.htm)
 
 # 整數的各種運算 Python Operators    
-- .[參考](https://www.w3schools.com/python/python_numbers.asp) 
-- .[參考](https://zh.m.wikibooks.org/zh-tw/Python/%E8%BF%90%E7%AE%97%E7%AC%A6)
+- [參考](https://www.w3schools.com/python/python_numbers.asp) 
+- [參考](https://zh.m.wikibooks.org/zh-tw/Python/%E8%BF%90%E7%AE%97%E7%AC%A6)
 
 # Python Arithmetic Operators
 ## Arithmetic operators are used with numeric values to perform common mathematical operations
@@ -115,66 +115,7 @@ print("1" not in x)
 # >> Signed right shift	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off
 
 ```
-# unsorted
 
-```python
-x = 1.10
-y = 1
-z = -35.59
-
-print(type(x))
-print(type(y))
-print(type(z))
-```
-
-```python
-x = 35e3
-y = 12E4
-
-print(type(x))
-print(type(y))
-```
-
-```python
-x = 3+5j
-print(type(x))
-```
-
-```python
-x = 1    
-y = 2.8  
-z = 1j   
-#convert from int to float:
-a = float(x)
-
-#convert from float to int:
-b = int(y)
-
-#convert from int to complex:
-c = complex(x)
-
-print(a)
-print(b)
-print(c)
-
-print(type(a))
-print(type(b))
-print(type(c))
-```
-
-```python
-x = 5
-y = 8
-
-print(x != y)
-
-```
-
-```python
-x = 8
-
-print(x > 6 and x < 9)
-```
 # 字串str的各種運算 [參考](https://www.w3schools.com/python/python_strings.asp)
 
 # Slicing
@@ -188,6 +129,33 @@ print(x[:8])
 # Modify Strings
 ## Python has a set of built-in methods that you can use on strings.
 
+```python
+#The upper() method returns the string in upper case
+#大寫
+a = "hello, 4110e113!"
+print(a.upper())
+```
+
+```python
+#The lower() method returns the string in lower case
+#小寫
+#x
+x ="HELLO, 4110E113"
+print(lower())
+#o
+x ="HELLO, 4110E113"
+print(x.lower())
+```
+
+```python
+#Whitespace is the space before and/or after the actual text, and very often you want to remove this space
+#remove前後空格
+a = "      Hello, 4110E113!         "
+print(a.strip())
+```
+
+```python
+#The replace() method replaces a string with another string
 
 ## unsorted
 
@@ -289,6 +257,72 @@ myfamily = {
   }
 }
 print(myfamily)
+```
+
+# unsorted
+
+```python
+x = 1.10
+y = 1
+z = -35.59
+
+print(type(x))
+print(type(y))
+print(type(z))
+```
+
+```python
+x = 35e3
+y = 12E4
+
+print(type(x))
+print(type(y))
+```
+
+```python
+x = 3+5j
+print(type(x))
+```
+
+
+
+
+
+
+```python
+x = 1    
+y = 2.8  
+z = 1j   
+#convert from int to float:
+a = float(x)
+
+#convert from float to int:
+b = int(y)
+
+#convert from int to complex:
+c = complex(x)
+
+print(a)
+print(b)
+print(c)
+
+print(type(a))
+print(type(b))
+print(type(c))
+```
+
+```python
+x = 5
+y = 8
+
+print(x != y)
+
+```
+
+```python
+x = 8
+
+print(x > 6 and x < 9)
 ```
 
 
