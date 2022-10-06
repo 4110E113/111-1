@@ -4,8 +4,7 @@
 - [python tutorial](https://www.tutorialspoint.com/python/index.htm)
 
 # 整數的各種運算 Python Operators    
-[參考](https://www.w3schools.com/python/python_numbers.asp)
-[參考](https://zh.m.wikibooks.org/zh-tw/Python/%E8%BF%90%E7%AE%97%E7%AC%A6)
+## [參考](https://www.w3schools.com/python/python_numbers.asp) ##[參考](https://zh.m.wikibooks.org/zh-tw/Python/%E8%BF%90%E7%AE%97%E7%AC%A6)
 
 # Python Arithmetic Operators
 ## Arithmetic operators are used with numeric values to perform common mathematical operations
@@ -116,7 +115,7 @@ print("1" not in x)
 
 ```
 # unsorted
-## -------
+
 ```python
 x = 1.10
 y = 1
@@ -188,7 +187,9 @@ print(x[:8])
 
 # Modify Strings
 ## Python has a set of built-in methods that you can use on strings.
-### unsorted
+
+
+## unsorted
 
 ```python
 
@@ -215,10 +216,9 @@ b = "Hello, World!"
 print(b[2:])
 ```
  
-#unsorted
 
 # 列表list的各種運算  [參考](https://www.w3schools.com/python/python_lists.asp)
-
+## unsorted
 ```python
 x = ["apple", "banana", "cherry", "apple", "cherry"]
 print(x)
