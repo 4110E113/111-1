@@ -3,12 +3,12 @@
 - [python tutorial](https://www.w3schools.com/python/)
 - [python tutorial](https://www.tutorialspoint.com/python/index.htm)
 
-## 整數的各種運算 Python Operators    
-# [參考](https://www.w3schools.com/python/python_numbers.asp)
-# [參考](https://zh.m.wikibooks.org/zh-tw/Python/%E8%BF%90%E7%AE%97%E7%AC%A6)
+# 整數的各種運算 Python Operators    
+## [參考](https://www.w3schools.com/python/python_numbers.asp)
+## [參考](https://zh.m.wikibooks.org/zh-tw/Python/%E8%BF%90%E7%AE%97%E7%AC%A6)
 
-．Python Arithmetic Operators
-# Arithmetic operators are used with numeric values to perform common mathematical operations
+# Python Arithmetic Operators
+## Arithmetic operators are used with numeric values to perform common mathematical operations
 
 ```python
 x = 8
@@ -38,8 +38,8 @@ y = 10
 print(x ** y)
 ```
 
-．Python Assignment Operators
-# Assignment operators are used to assign values to variables 
+# Python Assignment Operators
+## Assignment operators are used to assign values to variables 
 
 ```python
 x = 5
@@ -57,8 +57,8 @@ x//=3
 print(x)
 ```
 
-．Python Comparison Operators
-# Comparison operators are used to compare two values
+# Python Comparison Operators
+## Comparison operators are used to compare two values
 
 ```python
 x = 5
@@ -67,8 +67,8 @@ y = 3
 print(x != y)
 ```
 
-．Python Logical Operators
-# Logical operators are used to combine conditional statements
+# Python Logical Operators
+## Logical operators are used to combine conditional statements
 
 ```python
 x = 3
@@ -76,8 +76,8 @@ x = 3
 print(not(x > 3 and x < 10))
 ```
 
-．Python Identity Operators
-# Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location
+# Python Identity Operators
+## Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location
 
 ```python
 
@@ -93,8 +93,8 @@ print(x is y)
 print(x == y)
 ```
 
-．Python Membership Operators
-# Membership operators are used to test if a sequence is presented in an object
+# Python Membership Operators
+## Membership operators are used to test if a sequence is presented in an object
 
 ```python
 x = ["1", "0"]
@@ -102,9 +102,9 @@ x = ["1", "0"]
 print("1" not in x)
 ```
 
-．Python Bitwise Operators
-# Bitwise operators are used to compare (binary) numbers
-# UNDERSTANDE
+# Python Bitwise Operators
+## Bitwise operators are used to compare (binary) numbers
+## UNDERSTANDE
 
 ```python
 # &  AND Sets each bit to 1 if both bits are 1
@@ -115,10 +115,6 @@ print("1" not in x)
 # >> Signed right shift	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off
 
 ```
-20221004_09:31
-################################################################################################################################
-
-#unsorted
 
 ```python
 x = 1.10
@@ -178,25 +174,20 @@ x = 8
 
 print(x > 6 and x < 9)
 ```
-################################################################################################################################
-## 字串str的各種運算 
-# [參考](https://www.w3schools.com/python/python_strings.asp)
+# 字串str的各種運算 
+## [參考](https://www.w3schools.com/python/python_strings.asp)
 
-．Slicing
-# By leaving out the start index, the range will start at the first character
+# Slicing
+## By leaving out the start index, the range will start at the first character
 
 ```python
 x = "hey, 4110E113!"
 print(x[:8])
 ```
 
-．Modify Strings
-# Python has a set of built-in methods that you can use on strings.
-
-20221004_09:31
-################################################################################################################################
-
-#unsorted
+# Modify Strings
+## Python has a set of built-in methods that you can use on strings.
+### unsorted
 
 ```python
 
@@ -207,8 +198,6 @@ auqahfoancaos
 aiwdishibguefuckauwdsbbuheua.'''
 print(a)
 ```
-
-
 
 ```python
 for x in "4110E113":
@@ -224,13 +213,10 @@ print(a[1])
 b = "Hello, World!"
 print(b[2:])
 ```
-
-20221004_09:31
-################################################################################################################################ 
  
 #unsorted
 
-## 列表list的各種運算  [參考](https://www.w3schools.com/python/python_lists.asp)
+# 列表list的各種運算  [參考](https://www.w3schools.com/python/python_lists.asp)
 
 ```python
 x = ["apple", "banana", "cherry", "apple", "cherry"]
@@ -266,7 +252,7 @@ newlist = [x for x in fruits if "a" in x]
 print(newlist)
 ```
 
-## 字典dict的各種運算 [參考](https://www.w3schools.com/python/python_dictionaries.asp)
+# 字典dict的各種運算 [參考](https://www.w3schools.com/python/python_dictionaries.asp)
 ```python
 dict = {
   "brand": "Ford",
