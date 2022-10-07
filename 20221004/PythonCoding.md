@@ -156,12 +156,26 @@ print(a.strip())
 
 ```python
 #The replace() method replaces a string with another string
-
-## unsorted
+a = "Hello, 3000E113!"
+print(a.replace("300", "411"))
+```
 
 ```python
-
+#The split() method returns a list where the text between the specified separator becomes the list items
+#該split()方法返回一個列表，其中指定分隔符之間的文本成為列表項     (?
 ```
+
+# String Concatenation
+
+```python
+## To concatenate, or combine, two strings you can use the + operator
+a = "hey"
+b = "4110E113"
+c = a + "\t" + b
+print(c)
+```
+
+## unsorted
 ```python
 a = '''iashuhuhqbwbdsuhfuia
 auqahfoancaos
