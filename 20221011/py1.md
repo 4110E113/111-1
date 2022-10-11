@@ -6,7 +6,7 @@
 a = 1
 b = 0
 
- if a > b :
+if a > b :
   print("a is good")
  ```
 # if...elsif
@@ -46,3 +46,5 @@ elif a == b :
 else:
  print("b is good")
 ```
+
+# and & or 
