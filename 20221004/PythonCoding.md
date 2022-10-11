@@ -174,6 +174,26 @@ b = "4110E113"
 c = a + "\t" + b
 print(c)
 ```
+# String Format
+
+
+
+
+# Escape Characters
+
+
+
+
+# Python built-in String methods
+
+
+
+
+## capitalize()
+
+
+## count()
+
 
 ## unsorted
 ```python
@@ -200,12 +220,62 @@ print(b[2:])
  
 
 # 列表list的各種運算  [參考](https://www.w3schools.com/python/python_lists.asp)
-## unsorted
+
+# Access List Items
+
+
 ```python
+#Since lists are indexed, lists can have items with the same value
 x = ["apple", "banana", "cherry", "apple", "cherry"]
 print(x)
 ```
 
+# Change List Items
+
+
+
+
+# Add List Items
+
+
+
+
+# Remove List Items
+
+
+
+# Loop Lists
+
+
+
+
+# List Comprehension
+
+
+
+
+# Sort Lists
+
+
+
+
+# Copy Lists
+
+
+
+
+# Join Lists
+
+
+
+
+# Python built-in List methods
+
+
+
+
+
+## unsorted
 ```python
 list = ["apple"]
 print(list[:5])
@@ -236,6 +306,47 @@ print(newlist)
 ```
 
 # 字典dict的各種運算 [參考](https://www.w3schools.com/python/python_dictionaries.asp)
+
+
+# Access Items
+
+
+
+
+# Change Items
+
+
+
+
+# Add Items
+
+
+
+
+# Remove Items
+
+
+
+
+# Loop Dictionaries
+
+
+
+
+# Copy Dictionaries
+
+
+
+
+# Nested Dictionaries
+
+
+
+
+# Dictionary Methods
+
+
+
 ```python
 dict = {
   "brand": "Ford",
