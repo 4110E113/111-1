@@ -1,5 +1,6 @@
 
 # homework 2
+## 九九乘法表
 ```python
 for i in range(1, 10):
     for j in range(1, 10):
