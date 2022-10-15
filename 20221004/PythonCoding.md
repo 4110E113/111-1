@@ -8,7 +8,6 @@
 - [參考](https://zh.m.wikibooks.org/zh-tw/Python/%E8%BF%90%E7%AE%97%E7%AC%A6)
 
 # Python Arithmetic Operators
-## Arithmetic operators are used with numeric values to perform common mathematical operations
 
 ```python
 x = 8
@@ -39,7 +38,7 @@ print(x ** y)
 ```
 
 # Python Assignment Operators
-## Assignment operators are used to assign values to variables 
+
 
 ```python
 x = 5
@@ -58,7 +57,7 @@ print(x)
 ```
 
 # Python Comparison Operators
-## Comparison operators are used to compare two values
+
 
 ```python
 x = 5
@@ -68,7 +67,7 @@ print(x != y)
 ```
 
 # Python Logical Operators
-## Logical operators are used to combine conditional statements
+
 
 ```python
 x = 3
@@ -77,7 +76,7 @@ print(not(x > 3 and x < 10))
 ```
 
 # Python Identity Operators
-## Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location
+
 
 ```python
 
@@ -94,7 +93,7 @@ print(x == y)
 ```
 
 # Python Membership Operators
-## Membership operators are used to test if a sequence is presented in an object
+
 
 ```python
 x = ["1", "0"]
@@ -103,8 +102,6 @@ print("1" not in x)
 ```
 
 # Python Bitwise Operators
-## Bitwise operators are used to compare (binary) numbers
-## UNDERSTANDE
 
 ```python
 # &  AND Sets each bit to 1 if both bits are 1
@@ -119,7 +116,6 @@ print("1" not in x)
 # 字串str的各種運算 [參考](https://www.w3schools.com/python/python_strings.asp)
 
 # Slicing
-## By leaving out the start index, the range will start at the first character
 
 ```python
 x = "hey, 4110E113!"
@@ -127,29 +123,18 @@ print(x[:8])
 ```
 
 # Modify Strings
-## Python has a set of built-in methods that you can use on strings.
 
 ```python
-#The upper() method returns the string in upper case
-#大寫
 a = "hello, 4110e113!"
 print(a.upper())
 ```
 
 ```python
-#The lower() method returns the string in lower case
-#小寫
-#x
+
 x ="HELLO, 4110E113"
 print(lower())
-#o
-x ="HELLO, 4110E113"
-print(x.lower())
-```
 
 ```python
-#Whitespace is the space before and/or after the actual text, and very often you want to remove this space
-#remove前後空格
 a = "      Hello, 4110E113!         "
 print(a.strip())
 ```
@@ -159,12 +144,6 @@ print(a.strip())
 a = "Hello, 3000E113!"
 print(a.replace("300", "411"))
 ```
-
-```python
-#The split() method returns a list where the text between the specified separator becomes the list items
-#該split()方法返回一個列表，其中指定分隔符之間的文本成為列表項     (?
-```
-
 # String Concatenation
 
 ```python
@@ -174,55 +153,37 @@ b = "4110E113"
 c = a + "\t" + b
 print(c)
 ```
+
 # String Format
-
-
-
+```python
+height = 100
+x = "my height is {}"
+print(x.format(height))
+```
 
 # Escape Characters
+```python
+txt = "i'm good\t maybe\nnice to meet u"
+print(txt)
+```
 
-
-
-
-# Python built-in String methods
-
-
-
+# Python built-in String methods [連結](https://www.w3schools.com/python/python_strings_methods.asp)
 
 ## capitalize()
-
-
+```python
+x = "hElLo, HeLlO"
+x.capitalize()
+```
 ## count()
-
-
-## unsorted
 ```python
-a = '''iashuhuhqbwbdsuhfuia
-auqahfoancaos
-aiwdishibguefuckauwdsbbuheua.'''
-print(a)
+x = "Hello, 4110E113"
+y = "l"
+x.count(y)
 ```
-
-```python
-for x in "4110E113":
-  print(x)
-```
-
-```python
-a = "Hello, World!"
-print(a[1])
-```
-
-```python
-b = "Hello, World!"
-print(b[2:])
-```
- 
 
 # 列表list的各種運算  [參考](https://www.w3schools.com/python/python_lists.asp)
 
 # Access List Items
-
 
 ```python
 #Since lists are indexed, lists can have items with the same value
@@ -231,92 +192,90 @@ print(x)
 ```
 
 # Change List Items
-
-
-
-
+```python
+x = ["a", "b", "c"]
+x[0:2] = "x", "y"
+print(x)
+```
 # Add List Items
-
-
-
-
+```python
+x = [1, 2, 3]
+x.insert(0,0)
+print(x)
+```
 # Remove List Items
-
-
-
+```python
+x = ["1", "2", "3"]
+del x[0]
+print(x)
+```
 # Loop Lists
-
-
-
-
+```python
+txt = ["0", "1", "2"]
+for x in txt:
+  print(x)
+  ```
 # List Comprehension
+```python
+num1 = ["0422530", "12346271", "2456", "3345783", "4230462"]
+num2 = []
 
+for x in num1:
+  if "0" in x:
+    num2.append(x)
 
-
-
+print(num2)
+```
 # Sort Lists
-
-
-
-
+```python
+num = [0, 1, 2, 3, 4]
+num.sort()
+print(num)
+```
 # Copy Lists
-
-
-
-
+```python
+num1 = ["0", "1", "2"]
+num2 = num1.copy()
+print(num2)
+```
 # Join Lists
-
-
-
-
-# Python built-in List methods
-
-
-
-
-
-## unsorted
 ```python
-list = ["apple"]
-print(list[:5])
+num1 = [4, 1, 1]
+num2 = [0, "E", 1, 1, 3]
+
+num1.extend(num2)
+print(num1)
 ```
+# Python built-in List methods [連結](https://www.w3schools.com/python/python_lists_methods.asp)
 
+## .append()
 ```python
-list = ["apple", "banana", "cherry"]
-print(list[0])
-```
-
-```python
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-newlist = []
-
-for x in fruits:
-  if "c" in x:
-    newlist.append(x)
-
-print(newlist)
-```
-
-```python
-fruits = ["kiwi", "banana", "cherry", "apple", "water"]
-
-newlist = [x for x in fruits if "a" in x]
-
-print(newlist)
+num = ['0', '1', '2']
+num.append("3")
+print(num)
 ```
 
 # 字典dict的各種運算 [參考](https://www.w3schools.com/python/python_dictionaries.asp)
 
 
 # Access Items
-
-
-
-
+```python
+student = {
+  "ID": "4110E113",
+  "name": "wea",
+}
+x = student["ID"]
+print(x)
+```
 # Change Items
-
-
-
+```python
+student = {
+  "ID": "4110E113",
+  "name": "wea",
+}
+student["name"] = "wearan"
+print(student)
+```
 
 # Add Items
 
@@ -344,18 +303,6 @@ print(newlist)
 
 
 # Dictionary Methods
-
-
-
-```python
-dict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 2022
-}
-print(dict)
-```
-
 ```python
 thisdict = {
   "brand": "Ford",
