@@ -38,8 +38,6 @@ print(x ** y)
 ```
 
 # Python Assignment Operators
-
-
 ```python
 x = 5
 
@@ -57,8 +55,6 @@ print(x)
 ```
 
 # Python Comparison Operators
-
-
 ```python
 x = 5
 y = 3
@@ -67,8 +63,6 @@ print(x != y)
 ```
 
 # Python Logical Operators
-
-
 ```python
 x = 3
 
@@ -104,13 +98,7 @@ print("1" not in x)
 # Python Bitwise Operators
 
 ```python
-# &  AND Sets each bit to 1 if both bits are 1
-# |	 OR	Sets each bit to 1 if one of two bits is 1
-# ^	 XOR Sets each bit to 1 if only one of two bits is 1
-# ~  NOT Inverts all the bits
-# << Zero fill left shift	Shift left by pushing zeros in from the right and let the leftmost bits fall off
-# >> Signed right shift	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off
-
+print(10 & 5)
 ```
 
 # 字串str的各種運算 [參考](https://www.w3schools.com/python/python_strings.asp)
@@ -278,41 +266,47 @@ print(student)
 ```
 
 # Add Items
-
-
-
-
-# Remove Items
-
-
-
-
-# Loop Dictionaries
-
-
-
-
-# Copy Dictionaries
-
-
-
-
-# Nested Dictionaries
-
-
-
-
-# Dictionary Methods
 ```python
-thisdict = {
-  "brand": "Ford",
-  "model": "1001101",
-  "year": 2022
+stduent = {
+  "ID": "4110E113",
+  "name": "wea",
+  "born": 2022
 }
-thisdict["color"] = "blue"
-print(thisdict)
+stduent["number"] = 2
+print(stduent)
 ```
 
+# Remove Items
+```python
+student = {
+  "ID": "4110E113",
+  "name": "yuki",
+  "year": 1964
+}
+del student["year"]
+print(student)
+```
+# Loop Dictionaries
+```python
+student = {
+  "ID": "4110E113",
+  "name": "yuki",
+}
+for x, y in student.items():
+  print(x, y)
+  ```
+# Copy Dictionaries
+```python
+student = {
+  "ID": "4110E113",
+  "name": "yuki",
+}
+txt = student.copy()
+
+for x, y in txt.items():
+  print(x, y)
+  ```
+# Nested Dictionaries
 ```python
 myfamily = {
   "me" : {
@@ -328,77 +322,28 @@ myfamily = {
     "year" : 1998
   }
 }
+
+for x, y in myfamily.items():
+  print(x, y)
+```
+
+# Dictionary Methods
+```python
+myfamily = {
+  "me" : {
+    "name" : "ran",
+    "year" : 2003
+  },
+  "bro" : {
+    "name" : "Tobi",
+    "year" : 2001
+  },
+  "sis" : {
+    "name" : "Emy",
+    "year" : 1998
+  }
+}
+
+myfamily.clear()
 print(myfamily)
 ```
-
-# unsorted
-
-```python
-x = 1.10
-y = 1
-z = -35.59
-
-print(type(x))
-print(type(y))
-print(type(z))
-```
-
-```python
-x = 35e3
-y = 12E4
-
-print(type(x))
-print(type(y))
-```
-
-```python
-x = 3+5j
-print(type(x))
-```
-
-
-
-
-
-
-```python
-x = 1    
-y = 2.8  
-z = 1j   
-#convert from int to float:
-a = float(x)
-
-#convert from float to int:
-b = int(y)
-
-#convert from int to complex:
-c = complex(x)
-
-print(a)
-print(b)
-print(c)
-
-print(type(a))
-print(type(b))
-print(type(c))
-```
-
-```python
-x = 5
-y = 8
-
-print(x != y)
-
-```
-
-```python
-x = 8
-
-print(x > 6 and x < 9)
-```
-
-
-
-
-
-
