@@ -16,7 +16,7 @@
         - homework 1 : find twenty `windows command`
         - homework 2 : open `notepad.exe or calc.exe` and use taskkill指令
       - homework 3 : open `檔案總管`
-    - powershell 
+    - powershell
       - powershel cmdlet
         - get-process (動詞-名詞) 
       - powershell programming 
