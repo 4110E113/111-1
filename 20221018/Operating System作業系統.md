@@ -1,4 +1,4 @@
-(整理文章資料)
+(organize notes)
 # Operating System 
 
 - user mode & kernel mode
@@ -18,8 +18,8 @@
       - homework 3 : open `檔案總管`
     - powershell 
       - powershel cmdlet
-      -           動詞-名詞 
+        - get-process (動詞-名詞) 
       - powershell programming 
-      - [PowerShell 使用者入門](https://learn.microsoft.com/zh-tw/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.2) # 整理資料
+      - [PowerShell 使用者入門](https://learn.microsoft.com/zh-tw/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.2) # organize notes
 
-      - [適用於系統管理的範例指令碼](https://learn.microsoft.com/zh-tw/powershell/scripting/samples/sample-scripts-for-administration?view=powershell-7.2) # 整理資料
+      - [適用於系統管理的範例指令碼](https://learn.microsoft.com/zh-tw/powershell/scripting/samples/sample-scripts-for-administration?view=powershell-7.2) # organize notes
