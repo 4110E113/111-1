@@ -1,0 +1,16 @@
+# Operating System
+- user mode & kernel mode
+- kernel vs shell
+  - kernel
+  - shell
+- linux
+  - linux kernel
+  - linux shell
+- windows
+  - windows kernel
+  - windows shell
+    - cmd
+      - homework 1 : 20個 windows 指令
+      - homework 2 : open(notepad.exe | calc.exe) and use taskkill指令
+      - homework 3 : 
+    - powershell 
