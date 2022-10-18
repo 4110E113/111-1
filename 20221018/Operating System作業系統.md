@@ -1,4 +1,4 @@
-(organize notes)
+(google literature & organize notes)
 # Operating System 
 
 - user mode & kernel mode
