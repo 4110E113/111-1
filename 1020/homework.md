@@ -58,14 +58,14 @@ int main(){
 ```c
 #include<stdio.h>
 
-int main()
-{
-    int x = 34,y;
+int main(){
+    
+    int x , y;
     int result;
-    y = 57;
-    result = x * y -34;
+    y = 57 , x = 34;
+    result = x * y;
     printf("result = %d  x = %d  y = %d\n", result, x, y);
-
+    
     y = 6;
     result = x * y;
     printf("result = %d  x = %d  y = %d\n", result, x, y);
