@@ -45,6 +45,11 @@ int main(){
 	scanf("%d", &test2);
 	printf("期末分數 : %d\n", test2);
 	
+	fflush(stdin);
+	
+    &test1 + &test2 = x
+    printf("期中與期末平均 : " ,x)
+	
 	return 0 ;
 }
 ```
