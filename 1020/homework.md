@@ -20,38 +20,55 @@ int main(void){
 	      return 0 ;
 }
 ```
-- hw03 (the bug)
+- hw03 
 ```c
 #include <stdio.h>
 
 int main(){
-	int ID;
-	int test1;
-	int test2; 
+	char ID[20];
+	float test1;
+	float test2; 
 	
-	printf("請輸入學號 : ");
-	scanf("%d", &ID);
-	printf("學號 : %d\n", ID);
+	puts("請輸入學號 : ");
+	gets(ID);
 	
 	fflush(stdin);
 	
 	printf("請輸入期中考分數 : ");
-	scanf("%d", &test1);
-	printf("期中分數 : %d\n", test1);
+	scanf("%f", &test1);
+	printf("期中分數 : %.2f\n", test1);
 	
 	fflush(stdin);
 	
 	printf("請輸入期末考分數 : ");
-	scanf("%d", &test2);
-	printf("期末分數 : %d\n", test2);
+	scanf("%f", &test2);
+	printf("期末分數 : %.2f\n", test2);
 	
 	fflush(stdin);
 	
-    &test1 + &test2 = x
-    printf("期中與期末平均 : " ,x)
+	float number;
+	number = test1 + test2;
+	printf("期中考與期末考平均分數 : %2.f\n", (number)/2);
 	
-	return 0 ;
+   
+   return 0 ;
 }
 ```
 - hw04
-- 
+```c
+#include<stdio.h>
+
+int main()
+{
+    int x = 34,y;
+    int result;
+    y = 57;
+    result = x * y -34;
+    printf("result = %d  x = %d  y = %d\n", result, x, y);
+
+    y = 6;
+    result = x * y;
+    printf("result = %d  x = %d  y = %d\n", result, x, y);
+    return 0;
+}
+```
