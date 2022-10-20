@@ -26,11 +26,24 @@ int main(void){
 
 int main(){
 	int ID;
+	int test1;
+	int test2; 
 	
 	printf("請輸入學號 : ");
 	scanf("%d", &ID);
-	
 	printf("學號 : %d\n", ID);
+	
+	fflush(stdin);
+	
+	printf("請輸入期中考分數 : ");
+	scanf("%d", &test1);
+	printf("期中分數 : %d\n", test1);
+	
+	fflush(stdin);
+	
+	printf("請輸入期末考分數 : ");
+	scanf("%d", &test2);
+	printf("期末分數 : %d\n", test2);
 	
 	return 0 ;
 }
