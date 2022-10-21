@@ -63,7 +63,7 @@ int main(){
     int x , y;
     int result;
     y = 57 , x = 34;
-    result = x * y;
+    result = x * y -34;
     printf("result = %d  x = %d  y = %d\n", result, x, y);
     
     y = 6;
