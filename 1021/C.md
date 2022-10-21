@@ -80,3 +80,39 @@ int main(void){
     return 0 ;
 }
 ```
+```c
+#include <stdio.h>
+
+int main(void){
+    int x ;
+    
+    printf("enter int : ");
+    scanf("%d", &x);
+    
+    printf("奇數? %c\n", x & 1 ? 'Y' : 'N');
+    
+	return 0 ;
+}
+```
+```c
+#include <stdio.h>
+
+int main(void){
+    int x = 0;
+    int y = 0;
+    
+    printf("enter int : ");
+    scanf("%d", &x);
+    
+    y = x % 2;
+    if(y == 1){
+    	printf("%d 為奇數\n", x);
+    }
+    
+	else {
+         printf("%d 為偶數\n", x);	
+	}
+    
+    return 0 ;
+}
+```
