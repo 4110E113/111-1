@@ -1,4 +1,5 @@
-## teacher ans
+# teacher ans
+
 -hw01
 ```c
 #include <stdio.h>
