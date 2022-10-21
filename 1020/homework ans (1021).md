@@ -1,4 +1,4 @@
-# teacher ans
+# teacher solution
 
 - hw01
 ```c
