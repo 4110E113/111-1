@@ -1,6 +1,6 @@
 # teacher ans
 
--hw01
+- hw01
 ```c
 #include <stdio.h>
 int main()
@@ -12,7 +12,7 @@ int main()
     return 0;   
 }
 ```
--hw02
+- hw02
 ```c
 #include <stdio.h>
 int main()
@@ -26,7 +26,7 @@ int main()
 	return 0;
 }
 ```
--hw03
+- hw03
 ```c
 /* ex3-5.c */
 #include <stdio.h>
@@ -51,7 +51,7 @@ int main()
 	return 0; 
 }
 ```
--hw04
+- hw04
 ```c
 #include<stdio.h>
 int main()
