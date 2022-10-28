@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 int main(void) {
-	for(int x = 1; x < 27; x += 5){
+	int x ;
+	for(x = 1; x < 27; x += 5){
 	    printf("%d ", x);
 	}
 	
@@ -15,9 +16,10 @@ int main(void) {
 #include <stdio.h>
 
 int main(void) {
-	for(int a = 1; a < 21; a %= 5 ){
-	    if (a = 0);
-	       printf("%d", a %= 5);
+    int a;
+    for(a = 1; a < 21; a %= 5 ){
+	if (a = 0);
+	printf("%d", a %= 5);
 		
 	}
 	
