@@ -60,3 +60,34 @@ int main() {
 			return 0;
 }
 ```
+```c
+#include <stdio.h>
+
+int main(void) {
+	int x;
+	
+	for (x = 0; x <= 10; x = x + 2) {
+	  printf("%d\n", x);
+	}
+	
+	return 0;
+}
+```
+```c
+#include <stdio.h>
+
+int main(void) {
+    int a;
+    
+    for(a = 0; a < 10; a++){
+    	if(a == 4)
+		  break;
+	    } 
+	
+	printf("%d\n", a);
+		
+	}
+	
+	return 0;
+}
+```
