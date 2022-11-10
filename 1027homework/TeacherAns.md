@@ -1,6 +1,6 @@
 - hw01
 
-```
+```c
 #include <stdio.h>
 
 int main() 
@@ -17,7 +17,7 @@ int main()
 
 - hw02
 
-```
+```c
 #include<stdio.h>
 int main()
 {
@@ -37,7 +37,7 @@ int main()
 
 - hw03
 
-```
+```c
 #include<stdio.h>
 
 int main()
@@ -58,7 +58,7 @@ int main()
 
 - hw04
 
-```
+```c
 #include <stdio.h>
 void main()
 {     
