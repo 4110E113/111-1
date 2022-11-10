@@ -1,4 +1,4 @@
-# OSI 模型與TCP/IP protocal suite
+# OSI 模型與TCP/IP protocal suite 
   ## OSI有七層?簡述其功能
   ```
   實體層 （Physical Layer）: 在電線或其他物理線材上，傳遞訊號
@@ -30,7 +30,7 @@
     - session
     - presentation
     - application
-# 簡述底下應用層協定(英文全名與簡單功能說明):
+# 簡述底下應用層協定(英文全名與簡單功能說明):  (need  add)
 - HTTP
   - 超文本傳輸協定 HyperText Transfer Protocol
   - 讓瀏覽器和伺服器進行溝通
