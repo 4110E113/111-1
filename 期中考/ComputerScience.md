@@ -1,5 +1,5 @@
 # OSI 模型與TCP/IP protocal suite 
-  ## OSI有七層?簡述其功能 [資料來源]()
+  ## OSI有七層?簡述其功能 [資料來源](https://www.ithome.com.tw/tech/47085)
  ``` 
   實體層 （Physical Layer）: 在電線或其他`物理線材`上，傳遞訊號
   資料連結層 （Data Link Layer）: 傳輸過程中處理`流量控制`及`錯誤偵測`
@@ -9,7 +9,7 @@
   展示層 （Presentation Layer）: 將資料`轉換`表達方式
   應用層 （Application Layer）: 處理應用程式;提供網路應用服務
   ```
-  ## 底下網路設備運作在哪一層? Hub, switch, router, L4-switch, proxy [資料來源]()
+  ## 底下網路設備運作在哪一層? Hub, switch, router, L4-switch, proxy [資料來源](https://home.gamer.com.tw/creationDetail.php?sn=4247878)
  ```
   Hub : `Physical Layer`
   swutch : `Data Link Layer`
@@ -17,8 +17,8 @@
   L4-switch : `Transport Layer`
   proxy : `Application Layer`
   ```
-  ## TCP/IP有那些層?寫出與OSI七層模型的對應! [資料來源]()
-  ```
+  ## TCP/IP有那些層?寫出與OSI七層模型的對應! [資料來源](https://home.gamer.com.tw/creationDetail.php?sn=4247878)
+ 
   TCP/IP Model  vs  OSI Model
   - network interface
     - pyhtsical
@@ -31,7 +31,7 @@
     - session
     - presentation
     - application
-    ```
+ 
 # 簡述底下應用層協定(英文全名與簡單功能說明):  (need  add)
 - HTTP [資料來源](https://zh.wikipedia.org/zh-tw/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE)
   - 超文本傳輸協定 HyperText Transfer Protocol
