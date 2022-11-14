@@ -32,7 +32,7 @@
     - presentation
     - application
  
-# 簡述底下應用層協定(英文全名與簡單功能說明):  (need  add)
+# 簡述底下應用層協定(英文全名與簡單功能說明):
 - HTTP [資料來源](https://zh.wikipedia.org/zh-tw/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE)
   - 超文本傳輸協定 HyperText Transfer Protocol
   - 讓`瀏覽器`和`伺服器`進行溝通
