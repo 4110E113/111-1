@@ -37,7 +37,7 @@
   - 超文本傳輸協定 HyperText Transfer Protocol
   - 讓`瀏覽器`和`伺服器`進行溝通
   - HTTP是全球資訊網的數據通信的`基礎`
-  - 用於分佈式、協作式和超媒體訊息系統的`應用層協定`
+  - 分佈式、協作式
   - 使用`TCP協定`
     - HTTPs [資料來源](https://zh.wikipedia.org/zh-tw/%E8%B6%85%E6%96%87%E6%9C%AC%E4%BC%A0%E8%BE%93%E5%AE%89%E5%85%A8%E5%8D%8F%E8%AE%AE)
       - 超文本傳輸安全協定 HyperText Transfer Protocol Secure
@@ -58,7 +58,6 @@
        - 不提供`機密性`和`可用性`
        - 保持向下相容性
 - telnet [資料來源](https://zh.m.wikipedia.org/zh-hant/Telnet)
-    - 應用層協議
     - 提供雙向、以文字字串為主的命令列介面互動功能
     - 使用於`網際網路`及`區域網`中
     - 使用虛擬終端機的形式
@@ -72,7 +71,6 @@
 - ftp [資料來源](https://zh.wikipedia.org/zh-tw/%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE)
   - 檔案傳輸協定 File Transfer Protocol
   - `客戶端`和`伺服器`之間進行檔案傳輸
-  - 應用層協定
   - `8位元`的客戶端-伺服器協定
   - 極高的延時
     - sftp [資料來源](https://zh.wikipedia.org/wiki/SSH%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE)
@@ -102,7 +100,6 @@
 # 簡述底下傳輸層協定(英文全名與簡單功能說明):
   - TCP [資料來源](https://zh.wikipedia.org/zh-tw/%E4%BC%A0%E8%BE%93%E6%8E%A7%E5%88%B6%E5%8D%8F%E8%AE%AE)
     - 傳輸控制協定 Transmission Control Protocol
-    - IP層以及應用層的傳輸媒介
     - 透過網路將`封包`傳送給接收端實體的TCP層
     - TCP用一個`校驗和`函式來檢驗資料是否有錯誤
     - 連接建立、資料傳送和連接終止
@@ -116,7 +113,6 @@
     - 適用於不需要或在程式中執行錯誤檢查和糾正的應用
     - 不保留資料備份
     - 避免了`協定棧`中的開銷
-    - 傳輸層
       - reliable(可靠的)
         - 執行速度較慢且可伸縮性較低
       - unreliable(不可靠的)
