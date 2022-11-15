@@ -12,7 +12,7 @@
   ## 底下網路設備運作在哪一層? Hub, switch, router, L4-switch, proxy [資料來源](https://home.gamer.com.tw/creationDetail.php?sn=4247878)
  ```
   Hub : Physical Layer
-  swutch : Data Link Layer
+  switch : Data Link Layer
   router： Network Layer
   L4-switch : Transport Layer
   proxy : Application Layer
