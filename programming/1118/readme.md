@@ -18,3 +18,16 @@ int main(void)
 		
 }
 ```
+```c
+#include <stdio.h>
+int main ()
+{
+	int i;
+	for (i = 30; i>=0; i=i-7)
+	{
+		if(i != 10 && i != 20 && i != 30)
+		printf("%d ", i);
+	}
+	return 0;
+}
+```
