@@ -1,4 +1,4 @@
-- 1
+- NO.1
 ```c
 #include<stdio.h>
 
@@ -19,7 +19,7 @@ int main() {
 	return 0;
 }
 ```
-- 2
+- NO.2
 ```c
 #include <stdio.h>
 void main()
@@ -37,7 +37,7 @@ void main()
     return 0 ;
 }
 ```
-- 3
+- NO.3
 ```c
 #include <stdio.h>
 
@@ -59,7 +59,7 @@ int main(){
     return 0;
 }
 ```
-- 4
+- NO.4
 ```c
 #include <stdio.h>
 int main()
