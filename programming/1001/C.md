@@ -1,3 +1,4 @@
+```c
 int main(void)
 {
     int integer1;
@@ -13,3 +14,4 @@ int main(void)
 
     return 0;
 }
+```
