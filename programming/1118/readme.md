@@ -31,3 +31,25 @@ int main ()
 	return 0;
 }
 ```
+
+```c
+#include <stdio.h>
+
+
+int main(){
+	int i ;
+	for(i = 31; i >= 0; i=i-6){
+        printf("%d\t", i);
+        
+
+			if(i % 4 == 1){
+				printf("00\n");
+	           }
+		        else{
+                    printf("%d\n", i);
+                }
+    
+        }
+    return 0;
+}
+```
