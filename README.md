@@ -1,1 +1,1 @@
-about computerscience & programming
+i'm noob
