@@ -16,3 +16,17 @@ int main()
   return 0 ;
 }
 ```
+```c
+#include <stdio.h>
+int main()
+{
+int x,n;
+scanf("%d",&n);
+for(x=n-1;x>0;x--)
+{
+n*=i;
+}
+printf("%d",n);
+return 0;   
+}
+```
